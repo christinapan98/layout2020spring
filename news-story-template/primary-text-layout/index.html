@@ -3,8 +3,37 @@
   <head>
     <title>News Story Template</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <style>[v-cloak] { display: none; }</style>
+	
+    <style>
+	@media (min-width: 600px) {
+
+
+		#news-template {
+			width: 80vw;
+			margin: auto;
+			padding-top: 2vh;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			line-height: 1.2;
+
+		}
+
+		#image {
+			height: auto;
+			width: 80vw;
+		}
+
+		#title {
+			font-size: 300%;
+		}
+
+		#maincontent {
+			line-height: 1.7;
+			font-size: 140%;
+		}
+
+	}
+	  
+    </style>
   </head>
   <body>
     <div id="news-template" v-cloak>
